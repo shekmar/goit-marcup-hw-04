@@ -324,6 +324,9 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .socials-link {
@@ -333,7 +336,10 @@
     fill: #afb1b8;
 
     background-color: var(--light-txt-cl);
-    border-radius: 50%;
+}
+
+.social-icon {
+    fill: #afb1b8;
 }
 
 .clients-icon {
@@ -478,6 +484,7 @@
     display: flex;
     gap: 10px;
     padding: 0;
+    display: flex;
 }
 
 .socials-item-footer {
@@ -485,6 +492,9 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icon-footer {
