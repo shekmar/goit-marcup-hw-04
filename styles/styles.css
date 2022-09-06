@@ -394,6 +394,7 @@
 .clients-item:hover .clients-icon,
 .clients-item:focus .clients-icon {
     fill: var(--accent-txt-cl);
+    border: 1px solid var(--accent-txt-cl);
 }
 
 /* footer */
@@ -475,7 +476,6 @@
 
 .socials-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -501,8 +501,8 @@
     fill: var(--light-txt-cl);
 }
 
-.socials-footer:hover .social-item-footer,
-.socials-footer:focus .social-item-footer {
+.socials-item-footer:hover .socials-link-footer,
+.socials-item-footer:focus .socials-link-footer {
     fill: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
 }
