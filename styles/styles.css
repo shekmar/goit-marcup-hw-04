@@ -133,6 +133,9 @@
 
 .hero {
     background-color: var(--dark-background-cl);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -195,6 +198,15 @@
 .container-features {
     display: flex;
     padding-bottom: 0px;
+}
+
+.features-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    flex-box
 }
 
 .features-detail {
@@ -304,12 +316,18 @@
     justify-content: center;
     width: 44px;
     height: 44px;
+    color: #afb1b8;
 
     background-color: var(--light-txt-cl);
     border-radius: 50%;
 }
 
-.social-icon {}
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.container-clients {}
 
 .clients-title {
     font-weight: 700;
@@ -320,7 +338,27 @@
     color: var(--main-txt-cl);
     margin: 0;
     margin-bottom: 50px;
+    margin-top: 94px;
 }
+
+.clients-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin-bottom: 94px;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: ;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-icon {}
 
 /* footer */
 
@@ -328,6 +366,7 @@
     background-color: var(--dark-background-cl);
     padding-bottom: 60px;
     padding-top: 60px;
+    display: flex;
 }
 
 .logo-footer {
@@ -389,6 +428,22 @@
     margin-bottom: 9px;
 }
 
+.footer-title {
+    font: "Roboto";
+    font-weight: 700;
+    size: 14px;
+    color: var(--light-txt-cl);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.socials-footer {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
 /*portfolio*/
 
 .img {
@@ -435,9 +490,9 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.list-projects .projects:hover,
-.list-projects .projects:focus,
-.list-projects .projects:active {
+.list-projects .link:hover,
+.list-projects .link:focus,
+.list-projects .link:active {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
