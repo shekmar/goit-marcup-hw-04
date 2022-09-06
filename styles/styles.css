@@ -391,8 +391,8 @@
     fill: #afb1b8;
 }
 
-.clients-list:hover .clients-icon,
-.clients-list:focus .clients-icon {
+.clients-item:hover .clients-icon,
+.clients-item:focus .clients-icon {
     fill: var(--accent-txt-cl);
 }
 
@@ -473,7 +473,7 @@
     margin-bottom: 20px;
 }
 
-.socials-footer-list {
+.socials-footer {
     display: flex;
     justify-content: center;
     align-items: center;
