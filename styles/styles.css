@@ -38,7 +38,6 @@
 
 .header {
     border-bottom: 1px solid #ececec;
-    padding-top: 24px;
 }
 
 .header-container {
@@ -118,6 +117,14 @@
     padding-bottom: 32px;
     display: flex;
     vertical-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*main*/
@@ -327,6 +334,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .socials-link {
