@@ -287,6 +287,7 @@
     display: flex;
     gap: 30px;
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -304,6 +305,12 @@
     padding-right: 32px;
 }
 
+.team-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .name {
     text-align: center;
     font-weight: 500;
@@ -311,6 +318,7 @@
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -321,6 +329,7 @@
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--scnd-txt-cl);
+    margin: 0;
     margin-bottom: 16px;
 }
 
@@ -362,6 +371,11 @@
 .socials-link:hover .social-icon,
 .socials-link:focus .social-icon {
     fill: var(--light-txt-cl);
+}
+
+.socials-item:hover,
+.socials-item:focus {
+    fill: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
 }
 
@@ -381,8 +395,7 @@
     display: flex;
     list-style: none;
     gap: 30px;
-    padding: 0;
-    margin-bottom: 94px;
+    
 }
 
 .clients-item {
@@ -414,7 +427,12 @@
     background-color: var(--dark-background-cl);
     padding-bottom: 60px;
     padding-top: 60px;
+}
+
+.container-footer-general {
     display: flex;
+    align-items: baseline;
+    margin: 70px;
 }
 
 .logo-footer {
@@ -512,8 +530,8 @@
     fill: var(--light-txt-cl);
 }
 
-.socials-link-footer:hover .social-icon-footer,
-.socials-link-footer:focus .social-icon-footer {
+.socials-item-footer:hover,
+.socials-item-footer:focus {
     background-color: var(--accent-txt-cl);
 }
 
@@ -563,9 +581,9 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.list-projects .link:hover,
-.list-projects .link:focus,
-.list-projects .link:active {
+.list-projects .link-portfolio:hover,
+.list-projects .link-portfolio:focus,
+.list-projects .link-portfolio:active {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -598,8 +616,9 @@
     flex-basis: calc((100% - 2*30px) / 3);
 }
 
-.link {
+.link-portfolio {
     text-decoration: none;
+    display: block;
 }
 
 .card-text {
