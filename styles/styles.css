@@ -357,24 +357,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #afb1b8;
+    color: #afb1b8;
 
     background-color: var(--light-txt-cl);
 }
 
 .social-icon {
-    fill: #afb1b8;
+    color: #afb1b8;
     width: 20px;
     height: 20px;
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials-item:hover,
+.socials-item:focus {
+    fill: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
 }
 
-.socials-link:hover .social-icon,
-.socials-link:focus .social-icon {
+.socials-link:hover,
+.socials-link:focus {
     fill: var(--light-txt-cl);
 }
 
