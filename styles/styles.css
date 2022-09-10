@@ -368,15 +368,14 @@
     height: 20px;
 }
 
+.socials-link:hover,
+.socials-link:focus {
+    background-color: var(--accent-txt-cl);
+}
+
 .socials-link:hover .social-icon,
 .socials-link:focus .social-icon {
     fill: var(--light-txt-cl);
-}
-
-.socials-item:hover,
-.socials-item:focus {
-    fill: var(--light-txt-cl);
-    background-color: var(--accent-txt-cl);
 }
 
 .clients-title {
