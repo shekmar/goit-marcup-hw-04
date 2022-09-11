@@ -267,6 +267,13 @@
     display: flex;
     gap: 30px;
     list-style: none;
+    padding: 0;
+}
+
+.card-description {
+    position: relative;
+    bottom: 0;
+    display: flex;
 }
 
 .our-team {
@@ -389,14 +396,13 @@
     color: var(--main-txt-cl);
     margin: 0;
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 
 .clients-list {
     display: flex;
     list-style: none;
     gap: 30px;
-    
+    padding: 0;
 }
 
 .clients-item {
@@ -417,8 +423,8 @@
     fill: #afb1b8;
 }
 
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: var(--accent-txt-cl);
 }
 
@@ -435,7 +441,7 @@
     align-items: baseline;
 }
 
-.container-footer {
+.footer-box {
     margin-right: 70px;
 }
 
@@ -504,20 +510,17 @@
     size: 14px;
     color: var(--light-txt-cl);
     text-transform: uppercase;
+    margin-top: 0;
     margin-bottom: 20px;
-}
-
-.socials-footer {
-    display: flex;
-    align-items: center;
 }
 
 .socials-footer {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 10px;
     padding: 0;
-    display: flex;
+    margin: 0;
 }
 
 .socials-item-footer {
