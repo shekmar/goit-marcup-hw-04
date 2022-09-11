@@ -126,6 +126,7 @@
     align-items: center;
     justify-content: center;
     stroke: var(--scnd-txt-cl);
+    fill: var(--scnd-txt-cl);
 }
 
 .link-contacts:hover .photo-header,
