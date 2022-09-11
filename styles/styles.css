@@ -433,7 +433,10 @@
 .container-footer-general {
     display: flex;
     align-items: baseline;
-    margin: 70px;
+}
+
+.container-footer {
+    margin-right: 70px;
 }
 
 .logo-footer {
