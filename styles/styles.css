@@ -357,25 +357,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #afb1b8;
+    width: 44px;
+    height: 44px;
 
     background-color: var(--light-txt-cl);
 }
 
 .social-icon {
-    color: #afb1b8;
+    fill: #afb1b8;
     width: 20px;
     height: 20px;
 }
 
-.socials-item:hover,
-.socials-item:focus {
-    fill: var(--light-txt-cl);
+.socials-link:hover,
+.socials-link:focus {
     background-color: var(--accent-txt-cl);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials-link:hover, .social-icon,
+.socials-link:focus, .social-icon {
     fill: var(--light-txt-cl);
 }
 
