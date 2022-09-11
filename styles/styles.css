@@ -405,7 +405,7 @@
     padding: 0;
 }
 
-.clients-item {
+.clients-link {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -414,8 +414,8 @@
     justify-content: center;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
     border: 1px solid var(--accent-txt-cl);
 }
 
